@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A97052D4-5A0A-E2ED-D891-C50D8A748F0F" name="assignment">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>AAE691D1-2F65-57A7-BB94-3CF9051C526A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="278A7125-012B-A5D2-EF9F-2BDA15E6A88D">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>4B5D19EB-C35D-5BE7-1D6B-BCB8EDB1F80C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="5B8BAFBB-8F6A-E917-E568-6166F585BD04">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>00546CB2-401B-3515-9909-C736D8C4789E</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_group_id" id="94DEACF7-CB0C-4C32-00E7-4989E9E6A345">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>2A776BBF-884E-3845-B3A9-88069B5B4D99</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="52C948BB-DC57-DCD7-88AA-0B038FFBEDFB" referredColumn="D8657C86-82C9-64FF-F27E-1B413DC16AFD"/>
+</associations>
+</Column>
+<Column name="student_id" id="1DB32DB2-AA59-F290-4BF0-CB91AA37E21A">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>FC463826-A184-6EC1-8FD2-B4BFAE412713</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E54CD74B-919B-1C82-AC88-9C2C64922C92" referredColumn="27897114-524C-B848-EC3A-790AB73DDABE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59744F9A-7288-CC4A-DC90-126CC4D34303" name="assignment_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>85F4EA01-B076-872A-F949-1E0EE27CC062</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="278A7125-012B-A5D2-EF9F-2BDA15E6A88D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7494B22-136F-F77F-4240-2899E4904A5A" name="assignment_subject_group_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>DAE39306-7E3B-C0E5-DBDB-9A0755123AD0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94DEACF7-CB0C-4C32-00E7-4989E9E6A345"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55035228-42AB-B8C1-1FF0-F01210305E2D" name="assignment_student_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>C02B8745-B6AA-3B52-B356-631A3D073F1D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1DB32DB2-AA59-F290-4BF0-CB91AA37E21A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

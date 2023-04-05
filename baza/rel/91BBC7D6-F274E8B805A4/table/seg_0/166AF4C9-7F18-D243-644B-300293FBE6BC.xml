@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="166AF4C9-7F18-D243-644B-300293FBE6BC" name="student">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>13CC7C62-D21E-9DE2-3910-F4E7658DD30F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="27897114-524C-B848-EC3A-790AB73DDABE">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>36DEA91F-D9C8-C728-B47E-9FDCAA397D8B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="first_name" id="926AE707-4DDC-F2D6-E57D-682EEE70F4C4">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>22ACD052-E674-DE60-3868-0B45439DB922</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="568C5B94-0B92-6A46-39F8-04A4ABEC83D7">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>9832F850-7BB0-227E-F29E-E07E81E0E277</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="birth_date" id="8EDEDF89-0D38-702E-44F6-62E155BF8F37">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>961BA5F5-5526-92C5-2E90-D6BDA5570698</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="2196452B-9BA7-033F-B8AE-A1F8E5417610">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>8B6E822D-AE69-1B64-C153-25BA0177D4F5</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="index_number" id="9C7B5C1A-4092-F139-BC6B-02C7B78BDBE3">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>6308D327-1A08-604E-CF0D-191099D58072</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="249688EF-21FE-3EDC-5772-87211D3AA8F4" name="student_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>32B20064-A837-DF3E-EFD8-2D13E9C7B4FF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27897114-524C-B848-EC3A-790AB73DDABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

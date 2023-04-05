@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36E993CD-91F4-752D-7B8B-11EE218773C9" name="mark_type">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>37A67917-20C2-DCFC-C0EC-42A60C478E2A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mark_type_id" id="E7102B25-1670-8D3D-48B7-D518D1F140A0">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>13E1C5D6-B834-F546-A7BD-413BCE5FF48A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="value" id="19EC4F57-799B-D825-0E07-966CB783BF83">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>4A0E4708-D8EF-C363-14F0-0F0066515ED3</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="verbose" id="75E9685D-38ED-84C2-E906-BB4B72068C63">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>8C5EEACA-4C0E-AEAD-42A5-941DF55CECBD</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33D01FFD-844D-CD33-E431-B1E29EE139A7" name="mark_type_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>1EAE22AB-698D-7463-AC8A-2BFBA4215F3C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E7102B25-1670-8D3D-48B7-D518D1F140A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

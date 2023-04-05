@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="621B5116-047C-D31F-0D9D-F48F54959C5B" name="subject">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>AA9C45E4-8433-17B1-04DE-851D415FD48A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="subject_id" id="3A407BA9-8D3B-6973-7F99-E0D8597BA15F">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>BA712A42-527B-240C-5FBF-AA67C03BD611</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="F420A0A1-1FC6-7B7E-BE31-9DEA8EF7B70D">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>52AEA789-2234-90FC-256A-196898062BD9</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ects_points" id="D0F9FF04-D0E9-40FA-0D18-4FCE51810ECC">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>E544691C-AAB3-FD40-271B-F7308E787731</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="code" id="BDC1E43E-D838-D5A0-B6C8-24BDEAE33D6E">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>5700A3A3-F65C-BDAC-43B7-D7422D97C275</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subject_type_id" id="694C74A9-9B7B-0344-B045-FA83DCA073A9">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>79ED8DCD-8118-58CE-4997-3E7E4A12159A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7431C891-A346-573E-08DE-FA5265955F5C" referredColumn="35F2C5E0-EA1C-4412-C291-AF558EEFF1D4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBFF8179-2C80-9446-BF76-2A5139ED07D1" name="subject_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>109192F7-B0D0-2350-A568-A0BD52EA57B0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A407BA9-8D3B-6973-7F99-E0D8597BA15F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F024D690-B396-9058-5F02-258092A0E939" name="subject_subject_type_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>7AC690E8-910D-B50D-FA37-85FC9DC1D008</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="694C74A9-9B7B-0344-B045-FA83DCA073A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

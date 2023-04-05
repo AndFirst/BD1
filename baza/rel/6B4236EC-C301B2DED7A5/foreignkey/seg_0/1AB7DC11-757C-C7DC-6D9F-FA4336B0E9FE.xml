@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1AB7DC11-757C-C7DC-6D9F-FA4336B0E9FE" containerWithKeyObject="37509B36-097C-29CF-3A9F-E1F11AB44EF6" localFKIndex="D267E4DD-668D-D82F-8D4A-F9EB054EBB9A" name="ocena_rodzaj_oceny_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>4CA9C154-A171-173B-16F5-50D24BD8C38F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>rodzaj_oceny</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D2820551-2F78-9F5F-E327-C7A2466E478D</referredTableID>
+<keyObject>EFB0EFF5-86E4-E754-FCC9-749F364CAB43</keyObject>
+<referredKeyID>EFB0EFF5-86E4-E754-FCC9-749F364CAB43</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rodzaj_oceny_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

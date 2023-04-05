@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="68F2E60D-8D48-A8FB-7316-4DA90EE536B2" name="mark">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:28:52 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="mark_id" id="B309023B-6981-F44B-2AEB-E35ED6B78EAA">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:28:58 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="F467E40E-0333-8B13-0D29-904F8685BCE9">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 13:22:07 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="instructor_id" id="1651526C-DDCD-D352-CAB6-436530A6A3AA">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:17:07 UTC</createdTime>
+<generatorID>E42BEACE-425E-8BC0-5CA2-BEE3ED1DFFDF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>23436742-0379-4A9F-5167-2B6CCA1B1F10</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="A43DCE6D-63D4-21DF-0160-6CE277C2EEC4">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:17:26 UTC</createdTime>
+<generatorID>1ED5D6DB-A1F7-50F7-9E80-2F36D7F5D4B7</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36DEA91F-D9C8-C728-B47E-9FDCAA397D8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subject_id" id="140432AC-3DD4-03FC-38AD-CD79D68596B4">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:17:41 UTC</createdTime>
+<generatorID>53D31997-4AC7-C6DC-8F4C-A6435AC5DFFB</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>BA712A42-527B-240C-5FBF-AA67C03BD611</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mark_type_id" id="7CB05756-6904-2EE9-0F73-5C1BEBF12753">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:17:54 UTC</createdTime>
+<generatorID>241D30B8-CC12-2A00-063B-77B7126383FB</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>13E1C5D6-B834-F546-A7BD-413BCE5FF48A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A008BDA-7BFE-EC76-067B-8E8A1B961E92" name="mark PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:29:15 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B309023B-6981-F44B-2AEB-E35ED6B78EAA</newElementsIDs>
+<usedAttributes>
+<attributeRef>B309023B-6981-F44B-2AEB-E35ED6B78EAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

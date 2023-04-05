@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2466150F-89D9-F604-3D3F-177AEE1847AE" name="subject_group">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>B4384562-240F-D4EB-6F4C-678411EBCD47</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="subject_group_id" id="D8657C86-82C9-64FF-F27E-1B413DC16AFD">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>8A4A9644-F4A6-5B13-3FA6-68C118D2583F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity" id="894347B1-0A73-210A-F687-20F6E162DC8F">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>C9EC7175-E948-E64E-26CF-896281A2DE12</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instructor_id" id="4DD59A8A-611C-A0E4-E855-CCDC2DD94009">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>F40FA2A9-1F6E-D97F-C033-3BA0CBB18E44</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAE1F774-3942-9C30-EA98-D0396FA7D9D7" referredColumn="1B287F76-5F50-A884-81F6-F911C29018E2"/>
+</associations>
+</Column>
+<Column name="subject_id" id="CC46523A-93E7-D2B5-8B23-4F859F03057E">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>3FB5D5A2-C0F2-FEFE-EAEB-59452579029B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA78940F-AB51-DA6B-4EA5-C8C04402F2E8" referredColumn="4B1839C5-4E8C-3D21-7DC9-A232157AFBC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60B75C0C-86B8-5AC7-D6FC-93D6772A9692" name="subject_group_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>1736716F-08BC-EB38-DC71-399B363A1F33</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8657C86-82C9-64FF-F27E-1B413DC16AFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB77380B-76B4-8C7F-F384-AD2581A73F2E" name="subject_group_instructor_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>60D0C911-635C-3C52-7E38-7FF1B086192B</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4DD59A8A-611C-A0E4-E855-CCDC2DD94009"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D7642165-BBE3-7E1F-1813-5B757C6EA78D" name="subject_group_subject_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 23:52:27 UTC</createdTime>
+<generatorID>DD5D00BF-20CE-F74D-3BA5-7571412EFDA7</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC46523A-93E7-D2B5-8B23-4F859F03057E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

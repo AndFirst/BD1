@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46A1FC65-5354-6E7C-C349-50D42069EE74" name="subject_group">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>B4384562-240F-D4EB-6F4C-678411EBCD47</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="subject_group_id" id="DB270949-6D49-74EE-BB58-F0EAD340B9CC">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>8A4A9644-F4A6-5B13-3FA6-68C118D2583F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prowadzacy_id" id="3D15069B-D3A1-4731-30ED-0DACFEE5B933">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>B9E949E2-21FD-FC38-6487-DD738A03993D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="przedmiot_id" id="455FAFE8-ABB9-FF27-FB16-D6C694CA093E">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>49DDED69-B24B-04CC-A346-4F17540AFC4C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prowadzacy_prowadzacy_id" id="389C95FE-E4F6-A1F8-A97D-308A240084DA">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>2C2025B8-24F5-124C-824E-48276E48B83A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31DEC29E-7A22-4BE2-F556-527D438A93E9" referredColumn="AF8CC275-55D2-D3D1-872B-E69435EBC10E"/>
+</associations>
+</Column>
+<Column name="przedmiot_przedmiot_id" id="2B635A6A-9180-7CDA-E714-C0215AB44E9B">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>DAFD84FF-CEAF-DCC9-6DE8-D7161AD56BD6</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4D69BA15-C85F-A690-733C-9C405A3AA971" referredColumn="8ECC398B-FF81-44C9-52F6-33C18B9E4365"/>
+</associations>
+</Column>
+<Column name="capacity" id="0C17A8AD-B007-1346-39C7-BC3F5ADEDE54">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 19:47:27 UTC</createdTime>
+<generatorID>C9EC7175-E948-E64E-26CF-896281A2DE12</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A870037-A4AF-BF51-D1E8-F82AD5968168" name="grupa_zajeciowa_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>1736716F-08BC-EB38-DC71-399B363A1F33</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB270949-6D49-74EE-BB58-F0EAD340B9CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="74110D0A-791D-2C5C-BFBB-FF6C99B3FDCB" name="grupa_zajeciowa_prowadzacy_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>3030ADA3-542B-566E-2E66-F113E42C85D3</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="389C95FE-E4F6-A1F8-A97D-308A240084DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C89ACC0B-37FA-3DE7-664D-AA8E2257F72C" name="grupa_zajeciowa_przedmiot_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>4A4B3517-286D-3BBD-6558-A1408B7956FA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2B635A6A-9180-7CDA-E714-C0215AB44E9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

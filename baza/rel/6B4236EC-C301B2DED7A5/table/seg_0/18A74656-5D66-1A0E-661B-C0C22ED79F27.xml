@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="18A74656-5D66-1A0E-661B-C0C22ED79F27" name="assignment">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>AAE691D1-2F65-57A7-BB94-3CF9051C526A</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="assignment_id" id="75C84240-CB79-8969-53A1-88DFE7564A25">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>4B5D19EB-C35D-5BE7-1D6B-BCB8EDB1F80C</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_student_id" id="EBDFD8DE-9AB4-62CE-259E-33DAF569332B">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>AD44DAC2-672A-392C-1D41-695AB49209B9</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABDDC212-4C1F-709A-5FDB-41F13C40FF96" referredColumn="5E922752-EE1C-4F9F-3C98-91F8198DA4E3"/>
+</associations>
+</Column>
+<Column name="grupa_zajeciowa_grupa_zajeciowa_id" id="5D0F309A-02DD-1500-CAA7-70FA58B92965">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>3C3F496D-488C-2A23-BAE4-58B6BE5F390F</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CE74DCC-728C-57A2-9166-F1902167DD5F" referredColumn="DB270949-6D49-74EE-BB58-F0EAD340B9CC"/>
+</associations>
+</Column>
+<Column name="date" id="FBF0F383-5902-3238-D087-AD241A635132">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 19:47:27 UTC</createdTime>
+<generatorID>00546CB2-401B-3515-9909-C736D8C4789E</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B247A0D-B5A4-4A3F-B011-FB2C23C05383" name="przypisanie_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:40:06 UTC</createdTime>
+<generatorID>85F4EA01-B076-872A-F949-1E0EE27CC062</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="75C84240-CB79-8969-53A1-88DFE7564A25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC037C0E-04EB-C435-6C39-C4D93E123CDC" name="przypisanie_student_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>4CF8C615-8DA2-D9D5-16EF-021FA2616BD1</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBDFD8DE-9AB4-62CE-259E-33DAF569332B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="948DD260-D81F-2224-3300-D05B2ABFAD5D" name="przypisanie_grupa_zajeciowa_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>E85CEA68-573A-D5B6-9FE7-C2263B640DE5</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5D0F309A-02DD-1500-CAA7-70FA58B92965"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

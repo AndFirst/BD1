@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0C24B18F-D582-9429-A2E5-EB5C4EB5892E" name="course">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 15:09:41 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="AF6D1B99-E2EC-B69B-49CE-95CBC9BFEA50" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="course_id" id="EB4FCA40-5E61-78FB-2E70-1E29D69E41B3">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 15:10:13 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="AF6D1B99-E2EC-B69B-49CE-95CBC9BFEA50" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="7843315F-5911-43F0-5DE6-6978D62103DF">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 15:12:41 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="AF6D1B99-E2EC-B69B-49CE-95CBC9BFEA50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="academic_degree_id" id="6B967A21-F8DA-BD2D-4CB6-D8EC8F1498D9">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:16:21 UTC</createdTime>
+<generatorID>A9B8B16C-B114-03B9-F548-2C87497F41C4</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="AF6D1B99-E2EC-B69B-49CE-95CBC9BFEA50" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>E9021DE3-5D80-1CA7-F11C-6213644E2A1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B326E4D7-9007-979D-CC10-79C3C1B840C9" name="course PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 15:10:29 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="AF6D1B99-E2EC-B69B-49CE-95CBC9BFEA50" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EB4FCA40-5E61-78FB-2E70-1E29D69E41B3</newElementsIDs>
+<usedAttributes>
+<attributeRef>EB4FCA40-5E61-78FB-2E70-1E29D69E41B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

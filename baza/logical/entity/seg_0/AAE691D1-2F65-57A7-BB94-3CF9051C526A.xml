@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAE691D1-2F65-57A7-BB94-3CF9051C526A" name="assignment">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:18:21 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="assignment_id" id="4B5D19EB-C35D-5BE7-1D6B-BCB8EDB1F80C">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:18:28 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date" id="00546CB2-401B-3515-9909-C736D8C4789E">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-15 12:59:45 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subject_group_id" id="2A776BBF-884E-3845-B3A9-88069B5B4D99">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:16:04 UTC</createdTime>
+<generatorID>DAE39306-7E3B-C0E5-DBDB-9A0755123AD0</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8A4A9644-F4A6-5B13-3FA6-68C118D2583F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="FC463826-A184-6EC1-8FD2-B4BFAE412713">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:18:37 UTC</createdTime>
+<generatorID>C02B8745-B6AA-3B52-B356-631A3D073F1D</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>36DEA91F-D9C8-C728-B47E-9FDCAA397D8B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="85F4EA01-B076-872A-F949-1E0EE27CC062" name="assignment PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 19:18:44 UTC</createdTime>
+<ownerDesignName>baza</ownerDesignName>
+<engineerTo>
+<item key="759ADBF4-79DB-6DE7-7460-0ACBABF5E6D0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4B5D19EB-C35D-5BE7-1D6B-BCB8EDB1F80C</newElementsIDs>
+<usedAttributes>
+<attributeRef>4B5D19EB-C35D-5BE7-1D6B-BCB8EDB1F80C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

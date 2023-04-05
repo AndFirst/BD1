@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B889F12-9BEA-6548-432E-812995D3B6E0" name="mark">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>68F2E60D-8D48-A8FB-7316-4DA90EE536B2</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mark_id" id="7C13C510-B6F9-113B-A14B-C3881ECB5139">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>B309023B-6981-F44B-2AEB-E35ED6B78EAA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date" id="51725744-97B1-33D4-DE06-834CC619D0FA">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>F467E40E-0333-8B13-0D29-904F8685BCE9</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="instructor_id" id="3EEFDE75-779B-A48A-7C06-AEC9B1F07FB4">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>1651526C-DDCD-D352-CAB6-436530A6A3AA</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10B6D5F3-6996-9484-A554-3E536828EB8E" referredColumn="E8062CBE-5AF1-ADD6-04F1-0E8DA2A51FEC"/>
+</associations>
+</Column>
+<Column name="student_id" id="94DE9F27-C420-EFFB-2968-ED9052ED7C29">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>A43DCE6D-63D4-21DF-0160-6CE277C2EEC4</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D46BE097-9001-770F-F2A5-D46937836FAC" referredColumn="AE6F083A-89E2-7A38-D5A5-FA0DD3E6766E"/>
+</associations>
+</Column>
+<Column name="subject_id" id="F34FC18B-3E7C-2DC9-A29B-87962A56DB9B">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>140432AC-3DD4-03FC-38AD-CD79D68596B4</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE787E2D-15A1-0F59-1B12-94BE5E52ACFC" referredColumn="3A407BA9-8D3B-6973-7F99-E0D8597BA15F"/>
+</associations>
+</Column>
+<Column name="mark_type_id" id="F645CBB9-7735-BD43-9F05-FE6106D57585">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>7CB05756-6904-2EE9-0F73-5C1BEBF12753</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB7E791F-E96E-6472-E546-2F3E81AB04E0" referredColumn="76B12165-8234-FB0C-26A4-66DECDBEAF45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="942D9940-0CE6-3E63-0CCB-88D7928EE24A" name="mark_PK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>8A008BDA-7BFE-EC76-067B-8E8A1B961E92</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C13C510-B6F9-113B-A14B-C3881ECB5139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="835B1220-408B-FCCC-D7C8-AA1074FDD7DA" name="mark_instructor_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>E42BEACE-425E-8BC0-5CA2-BEE3ED1DFFDF</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3EEFDE75-779B-A48A-7C06-AEC9B1F07FB4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1AF081D-786F-2DC8-D38C-31B58BFD0F0D" name="mark_student_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>1ED5D6DB-A1F7-50F7-9E80-2F36D7F5D4B7</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94DE9F27-C420-EFFB-2968-ED9052ED7C29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="468B589A-A472-07EF-29A8-DBAA94C0B279" name="mark_subject_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>53D31997-4AC7-C6DC-8F4C-A6435AC5DFFB</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F34FC18B-3E7C-2DC9-A29B-87962A56DB9B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF33520D-4624-B750-E75B-06F468FBECFD" name="mark_mark_type_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:28:30 UTC</createdTime>
+<generatorID>241D30B8-CC12-2A00-063B-77B7126383FB</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F645CBB9-7735-BD43-9F05-FE6106D57585"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

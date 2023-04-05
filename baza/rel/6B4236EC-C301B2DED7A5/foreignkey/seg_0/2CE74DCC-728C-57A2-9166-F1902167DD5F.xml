@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CE74DCC-728C-57A2-9166-F1902167DD5F" containerWithKeyObject="18A74656-5D66-1A0E-661B-C0C22ED79F27" localFKIndex="948DD260-D81F-2224-3300-D05B2ABFAD5D" name="przypisanie_grupa_zajeciowa_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-12 22:20:21 UTC</createdTime>
+<generatorID>E85CEA68-573A-D5B6-9FE7-C2263B640DE5</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>grupa_zajeciowa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>46A1FC65-5354-6E7C-C349-50D42069EE74</referredTableID>
+<keyObject>5A870037-A4AF-BF51-D1E8-F82AD5968168</keyObject>
+<referredKeyID>5A870037-A4AF-BF51-D1E8-F82AD5968168</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>grupa_zajeciowa_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

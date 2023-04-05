@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3406AC17-2CE6-5946-A931-385615F303BB" containerWithKeyObject="607ECC80-A29C-1CB5-1D30-2B7B8DB33842" localFKIndex="572E7B24-64AC-9AAA-2282-E621061016EB" name="mark_mark_type_FK">
+<createdBy>Irek</createdBy>
+<createdTime>2023-01-16 20:36:42 UTC</createdTime>
+<generatorID>241D30B8-CC12-2A00-063B-77B7126383FB</generatorID>
+<ownerDesignName>baza</ownerDesignName>
+<referredTableLongName>mark_type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>36E993CD-91F4-752D-7B8B-11EE218773C9</referredTableID>
+<keyObject>33D01FFD-844D-CD33-E431-B1E29EE139A7</keyObject>
+<referredKeyID>33D01FFD-844D-CD33-E431-B1E29EE139A7</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>mark_type_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,10 @@
+drop table ACADEMIC_DEGREE cascade constraints;
+drop table ASSIGNMENT cascade constraints;
+drop table COURSE cascade constraints;
+drop table INSTRUCTOR cascade constraints;
+drop table MARK cascade constraints;
+drop table MARK_TYPE cascade constraints;
+drop table STUDENT cascade constraints;
+drop table SUBJECT cascade constraints;
+drop table SUBJECT_TYPE cascade constraints;
+drop table SUBJECT_GROUP cascade constraints;
